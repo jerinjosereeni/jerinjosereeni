@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#banner{
+	background-color: #336699;
+	height: 600px;
+	text-align: center;
+}
+
+.picture{
+	padding-top: 120px;
+	padding-right: 20px;
+
+}
+
+.photo{
+	border-radius: 20%;
+}
+
+.about{
+	padding-top: 90px;
+	font-size: 25px;
+	color: #ffffff;
+	font-family: cursive;
+}
+
+.name h2{
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 700px;
+}
+
+.dis{
+	padding-top: 4px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 600px;
+}
+
+.myself{
+	padding-top: 4px;
+	font-size: 20px;
+	font-family: tahoma;
+}
+
+.social{
+	min-height: 70px;
+	padding: 10px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+.socialm{
+	display: inline;
+	padding: 10px;
+	font-size: 40px;
+}
+
+.socialm a:hover i{
+	transform: translateY(-12px);
+
+}
+
+
+#services{
+	background:#ffffff;
+	padding: 50px 0;
+}
+
+
+.service-img{
+	width: 95px;
+	margin-top: 25px;
+}
+
+.services{
+	padding: 70px;
+}
+
+.services h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+footer p{
+	padding-top: 5px;
+}
+
+footer{
+	height: 40px;
+	background-color: #336699;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 700px)
+{
+
+
+#banner{
+	height: 1000px;
+}
+
+.picture{
+	padding-top: 70px;
+}
+
+.about{
+	padding-top:25px;
+}
+
+}
+.services{
+	padding-top: 5px
+}
+
+
+
