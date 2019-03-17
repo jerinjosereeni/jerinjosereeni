@@ -68,7 +68,7 @@ body{
 }
 
 
-#services{
+#services{	
 	background:#ffffff;
 	padding: 50px 0;
 }
@@ -80,6 +80,7 @@ body{
 }
 
 .services{
+	padding-top:10px;
 	padding: 70px;
 }
 
